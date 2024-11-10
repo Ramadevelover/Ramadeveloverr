@@ -1,0 +1,157 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #000000;
+}
+
+.navbar {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 50px;
+
+  
+    
+   
+}
+
+.logo span {
+    color: #FFD700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #000000;
+    background-color: #FFD700;
+    border-radius: 20px;
+}
+
+.book-btn {
+    background-color: #feffff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #FFD700;
+    
+}
+
+.hero-section {
+    text-align: center;
+    padding: 200px 20px;
+    background-image: url("p.jpeg");
+    margin: auto;
+    background-size: cover;
+}
+.ttn{
+    color: #FFD700;
+    text-align: left;
+}
+.hero-section h1 {
+    font-size: 36px;
+    color: #000000;
+    font-style: bold;
+    font-size: 50px;
+    
+   
+    margin-bottom: 20px;
+    
+   
+}
+
+.author {
+    color: #FFD700;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 720px) {
+    .content {
+        padding: 10px;
+    }
+
+    .cta, .details, .pricing {
+        text-align: center; /* Memusatkan teks pada layar kecil */
+    }
+    
+    .morning ul, .evening ul {
+        padding: 0;
+        list-style-type: none;
+    }
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #39015a;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+
+}
+
+/* Gaya tautan di sidebar */
+.sidebar a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    transform: scale(1); /* Skala awal normal */
+}
+
+/* Animasi mengembang saat hover */
+.sidebar a:hover {
+    transform: scale(1.1); /* Mengembang sedikit */
+    color: #ffffff; /* Warna sedikit lebih terang */
+}
+
+/* Gaya tombol menu */
+.menu-btn {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 0;
+}

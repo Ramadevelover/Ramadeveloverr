@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.contact-section, .faq-section {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #03ecb2;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    color: #03ecb2;
+}
+
+.faq-section h3 {
+    color: #03ecb2;
+}
+
+.faq-section h2 {
+    font-size: 1.8em;
+    color: #03ecb2;
+    margin-top: 10px;
+}
+
+.faq-item {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.faq-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: #03ecb2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.faq-sign {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #03ecb2;
+    transition: transform 0.3s ease; /* Menambahkan transisi untuk animasi */
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    font-size: 1em;
+    color: #000000;
+}
+
+.faq-content.show {
+    max-height: 100px; /* Sesuaikan dengan kebutuhan */
+    opacity: 1;
+}
+
+.faq-sign.rotate {
+    transform: rotate(45deg); /* Rotasi tanda menjadi tanda positif */
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+.contact-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    color: #FFD700;
+}
+
+.contact-section p {
+    color: #FFD700;
+}
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Mengatur ikon agar rata tengah */
+    gap: 10px; /* Jarak antara setiap ikon */
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Memastikan gambar pas di dalam lingkaran */
+}
+
+.social-icons a img {
+    width: 30px; /* Mengatur ukuran gambar/ikon */
+    height: 30px;
+    border-radius: 45px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fefff9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(30, 58, 138, 0.5);
+    outline: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(251, 252, 253);
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #FFD700;
+    transform: translateY(-3px);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.logo span {
+    color: #FFD700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    background-color: #FFD700;
+    border-radius: 20px;
+}
+
+.book-btn {
+    background-color: #feffff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color:#FFD700;
+    
+}
